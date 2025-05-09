@@ -66,6 +66,7 @@ app/
   - Anthropic Claude
   - Stripe
   - Firecrawl
+  - OpenAI
 
 ### Environment Variables
 
@@ -80,6 +81,7 @@ API_V1_STR=/api/v1
 # API Keys
 CLAUDE_API_KEY=your_claude_api_key
 FIRECRAWL_API_KEY=your_firecrawl_api_key
+OPENAI_API_KEY=your_openai_api_key
 
 # MongoDB Configuration
 MONGO_URI=your_mongodb_connection_string

@@ -38,6 +38,8 @@ class Settings(BaseSettings):
     VERSION: str = "1.0.0"
     API_V1_STR: str = "/api/v1"
     CLAUDE_API_KEY: str
+    ANTHROPIC_API_KEY: str
+    OPENAI_API_KEY: str
     ALLOWED_ORIGINS: list = ["*"]  # For development, allow all origins
 
     # MongoDB settings
